@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -11,21 +11,21 @@ body {
 }
 
 h1 {
-  background: linear-gradient(to right, rgb(242, 26, 6), rgb(254, 213, 5));
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, rgb(242, 26, 6), rgb(254, 213, 5));
   background-clip: text;
-  margin-bottom: 12.5rem;
-  font-size: 5rem;
-  margin-top: 6.25rem;
   border: solid rgb(255, 111, 0) 0.125rem;
   border-radius: 0.9375rem;
+  font-size: 5rem;
+  margin-bottom: 12.5rem;
+  margin-top: 6.25rem;
 }
 
 .theme-switch {
   transform: transform 2s ease-in-out;
-  transition-delay: 1s;
   transition: 0.5s;
+  transition-delay: 1s;
 }
 
 .theme-switch:hover {
@@ -33,9 +33,9 @@ h1 {
 }
 
 .flex__container {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 a {
@@ -43,27 +43,27 @@ a {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .container a {
+  background-color: #fff;
+  display: inline-block;
+  height: 100px;
+  margin: 1.25rem;
   position: relative;
   width: 300px;
-  height: 100px;
-  display: inline-block;
-  background-color: #fff;
-  margin: 1.25rem;
 }
 
 .container a::before,
 .container a::after {
-  content: " ";
-  position: absolute;
-  inset: 0;
   background: #f00;
+  content: " ";
+  inset: 0;
+  position: absolute;
   transition: 0.5s;
 }
 
@@ -77,24 +77,24 @@ a {
 }
 
 .container a:hover:after {
-  inset: -3px;
   filter: blur(10px);
+  inset: -3px;
 }
 
 .container a span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  background-color: #525152;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  background-color: #525152;
   color: #fff;
+  display: inline-block;
+  display: flex;
+  font-size: 1.2em;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  letter-spacing: 2px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }

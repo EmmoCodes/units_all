@@ -27,8 +27,8 @@ body {
 
 header {
   background-color: var(--color-bg);
-  width: 100%px;
   margin-bottom: 18.77rem;
+  width: 100%px;
 }
 
 .color__grey {
@@ -94,9 +94,9 @@ header .header__box > p {
 
 .header__nav li a {
   display: block;
-  text-align: right;
   margin-right: 1.425rem;
   margin-top: 1rem;
+  text-align: right;
 }
 
 .header__nav li a:hover {
@@ -108,31 +108,31 @@ header .header__box > p {
 }
 
 .section__images__text h3 {
+  color: rgb(244, 251, 251);
   font-family: "Maven";
   font-size: 8.75rem;
-  color: rgb(244, 251, 251);
   font-weight: 700;
+  margin-bottom: 6.4887rem;
   padding-bottom: 0;
   top: -6.875rem;
-  margin-bottom: 6.4887rem;
 }
 
 .section__images__text .infront__projects {
   font-family: "Times";
-  font-weight: 700;
   font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
   position: absolute;
   top: 1205px;
-  margin-bottom: 3.5rem;
 }
 
 .projects__textblock {
   display: inline-block;
-  font-weight: 400;
   font-family: "Maven";
-  width: 43.2281rem;
+  font-weight: 400;
   height: 4.75rem;
   margin-bottom: 13.5rem;
+  width: 43.2281rem;
 }
 
 .image__container {
@@ -145,14 +145,14 @@ header .header__box > p {
 }
 
 .image__container h4 {
-  font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 0.75rem;
+  font-weight: 700;
   letter-spacing: 0.125rem;
+  margin-bottom: 0.75rem;
 }
 
 .image__container p {
   font-size: 1rem;
-  margin-bottom: 5rem;
   letter-spacing: 0.125rem;
+  margin-bottom: 5rem;
 }
