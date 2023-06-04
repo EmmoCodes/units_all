@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  src: url("../fonts/Roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 100;
+  src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+
+:root {
+  --color-grey: #565c73;
+  --color-white: #cdd4de;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+}
+
+h2 {
+  color: var(--color-grey);
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+span {
+  background-color: #565c7310;
+}
+
+main,
+a {
+  color: var(--color-white);
+}
+
+h3 {
+  color: var(--color-white);
+  font-family: "Roboto";
+  font-size: 10.3125rem;
+  font-weight: 700;
+  padding-bottom: 1.75rem;
+  padding-top: 11.5625rem;
+}
+
+main p:nth-of-type(1) {
+  font-size: 2.125rem;
+  margin-bottom: 0.8744rem;
+}
+
+main p:nth-of-type(2) {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-weight: 100;
+  margin-bottom: 8.8675rem;
+}
+
+a {
+  border: var(--color-white) solid 0.0625rem;
+  border-radius: 3px;
+  display: block;
+  font-size: 0.75rem;
+  margin: 0 auto;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 8rem;
+}
