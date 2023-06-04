@@ -99,6 +99,10 @@ header .header__box > p {
   margin-top: 1rem;
 }
 
+.header__nav li a:hover {
+  text-shadow: 0 0 1em white;
+}
+
 .section__images__text {
   margin-left: 3.125rem;
 }
