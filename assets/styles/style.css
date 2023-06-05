@@ -10,19 +10,15 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  color: rgb(255, 111, 0);
-  /* background-clip: text; */
+.theme-switch {
+  background: linear-gradient(to right, rgb(242, 26, 6), rgb(254, 213, 5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   border: solid rgb(255, 111, 0) 0.125rem;
   border-radius: 0.9375rem;
   font-size: 5rem;
   margin-bottom: 12.5rem;
   margin-top: 6.25rem;
-}
-
-.theme-switch {
   transform: transform 2s ease-in-out;
   transition: 0.5s;
   transition-delay: 0.5s;
